@@ -1,32 +1,32 @@
 //Question bank
 var questionBank= [
     {
-        question : 'First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in',
-        option : ['1967','1968','1958','1922'],
-        answer : '1967'
+        question : ' Which memory storage is widely used in PCs and Embedded Systems?',
+        option : ['EEPROM','Flash memory','SRAM','DRAM'],
+        answer : 'DRAM'
     },
     {
-        question : 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
-        option : ['Asia','Africa','Europe','Australia'],
-        answer : 'Africa'
+        question : 'How an embedded system communicate with the outside world?',
+        option : ['Memory','Output','Peripherals',''Input'],
+        answer : 'Peripherals'
     },
     {
-        question : 'Garampani sanctuary is located at',
-        option : ['Junagarh, Gujarat','Diphu, Assam','Kohima, Nagaland','Gangtok, Sikkim'],
-        answer : 'Diphu, Assam'
+        question : 'Which of the architectures are made to speed up the processor?',
+        option : ['CISC',' RISC','program stored','von Neumann'],
+        answer : 'RISC'
     },
     {
-        question : 'For which of the following disciplines is Nobel Prize awarded?',
-        option : ['Physics and Chemistry','Physiology or Medicine','Literature, Peace and Economics','All of the above'],
-        answer : 'All of the above'
+        question 'Which of the following can generates a interrupt?'
+        option : ['Counter','Timer','Delay','All of the above'],
+        answer : 'Timer'
     },
     {
         question : 'Hitler party which came into power in 1933 is known as',
-        option : ['Labour Party','Nazi Party','Ku-Klux-Klan','Democratic Party'],
-        answer : 'Nazi Party'
+        option : ['CISC','RISC','program stored','von Neumann'],
+        answer : 'RISC'
     },
     {
-        question : 'First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in',
+        question : 'von Neumann',
         option : ['1967','1968','1958','1922'],
         answer : '1967'
     },
