@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+body{
+    font-family: sans-serif;
+    /* background: linear-gradient(115deg, rgba(101,151,209,0.8),rgba(202,102,211,0.5)),url(/quizbg.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+img{
+    width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 50%;
+}
+.img{
+    position: fixed;
+}
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    margin: 1rem 0rem 2rem 0rem;
+    font-size: 3rem;
+    /* color: rgb(49,70,7); */
+    /* background: rgba(105,224,90,0.55); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quiz-container{
+    
+}
+.questions{
+    /* margin: 3rem auto; */
+    width: 60vw;
+    padding: 2rem;
+    /* background: rgba(0,255,221,0.45); */
+    cursor: default;
+    border-radius: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    background: linear-gradient(black,  black) padding-box,
+              linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 2rem;
+  border: 4px solid transparent;
+
+   
+}
+
+
+
+
+#question{
+    margin-bottom: 2rem;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border: solid 0.1rem gray;
+    width: 15rem;
+    /* background: lightblue; */
+    border-radius: 1rem;
+}
+.option:hover{
+    color: white;
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(1,73,73);
+}
+span{
+    display: block;
+    padding: 0.8rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color:gray;
+}
+.buttons{
+    text-align: center;
+}
+.back, .next{
+    padding: 0.5rem 1.8rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    /* background: rgba(161,177,19,0.82); */
+    margin: 0rem 20rem;
+    cursor: pointer;
+}
+
+.back, .next:hover{
+    background: rgb(218, 203, 203);
+    color: black;
+}
+.back, .nextd:active{
+    background: lavender;
+}
+
+#scoreboard,#answerBank{
+    width: 25rem;
+    /* background: rgba(230,230,250,0.77); */
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    display: none;
+    border: 2px solid white;
+    border-radius: 2rem;
+}
+
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers{
+    margin-top: 1rem;
+}
+
+.merabtn{
+    margin-top: 100px;
+    padding: 2rem;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+
+}
+.btn:hover{
+    background: rgb(218, 203, 203);
+    color: black;
+}
+

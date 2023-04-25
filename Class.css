@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Century Gothic",sans-serif;
+    background-color: black;
+    color: white;
+}
+nav a {
+     text-decoration: none;
+     color: rgb(248, 244, 244);
+}
+.navlist{
+    padding: 30px;
+    position:fixed;
+    align-items: center;
+  
+   width: 100%;
+   text-decoration: none;
+}
+.navlist ul{
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    font-variant:small-caps;
+    font-weight: bold;
+}
+.navlist li{
+    text-align: center;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.Container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(253, 251, 251);
+    font-size: 70px;
+    background-color: #0e1538;
+}
+.navlist b{
+    margin-right:100px;
+    text-align: left;
+    align-items: left;
+}
+
+.Container a{
+    font-size: 25px;
+    position: relative;
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+    border: 2px solid rgb(1, 208, 249);
+}
+.Container a:before,
+.Container a:after
+{
+    content:'';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,rgb(1, 208, 249),#0e1538,#0e1538,rgb(1, 212, 249)) ;  
+    transition: 0.5s;   
+}
+.Container a:hover:before
+{
+    inset: -3px;
+}
+.Container a:hover:after
+{
+    inset: -3px;
+    filter: blur(10px);
+}
+.Container a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: rgb(1, 12, 63);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+ 
+    color: rgb(247, 247, 247);
+}
+.Container p{
+    font-size: 40px;
+}
+.Container h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: transparent;
+}
+.Container h2 span{
+    animation: animate 3s linear infinite;
+    animation-delay:calc(0.1s * var(--i)) ;
+}
+@keyframes animate{
+    0%
+    {
+        color:#fff;
+        filter: blur(1px) hue-rotate(0deg);
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff,
+        0 0 200px #00b3ff,
+        0 0 300px #00b3ff;
+    }
+    30%,70%
+    {
+        color:#fff;
+        filter: blur(1px) hue-rotate(360deg);
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff,
+        0 0 200px #00b3ff,
+        0 0 300px #00b3ff;
+    }
+    100%
+    {
+        color: transparent;
+        box-shadow: none;
+        filter: blur(2px) hue-rotate(0deg);
+    }
+}
