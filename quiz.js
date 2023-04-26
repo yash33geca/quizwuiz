@@ -1,6 +1,6 @@
 //Question bank
 var questionBank= [
-   {
+    {
         question : 'Which memory storage is widely used in PCs and Embedded Systems?',
         option : ['EEPROM','Flash memory','SRAM','DRAM'],
         answer : 'DRAM'
@@ -16,21 +16,40 @@ var questionBank= [
         answer : 'RISC'
     },
     {
-        question : 'Which of the following can generates a interrupt?',
+        question :'Which of the following can generates a interrupt?',
         option : ['Counter','Timer','Delay','All of the above'],
         answer : 'Timer'
     },
     {
-        question : 'Hitler party which came into power in 1933 is known as',
-        option : ['CISC','RISC','program stored','von Neumann'],
-        answer : 'RISC'
+        question : 'By which instruction does the switching of registers take place?',
+        option : ['nstruction opcodes','AXX instruction','EXX instruction','Register instruction'],
+        answer : 'nstruction opcodes'
     },
     {
-        question : 'von Neumann',
-        option : ['1967','1968','1958','1922'],
-        answer : '1967'
+        question : 'RISC stand for_________',
+        option : ['Restricted  Instruction Sequential Computer','Restricted  Instruction Sequential Compile','Reduce Instruction Set Computer','Reduce Instruction Set compile'],
+        answer : 'Reduce Instruction Set Computer'
     },
-    
+    {
+        question : 'LPC 2148 pro development board has _________ on chip memory.',
+        option : ['625k','500k','512k','425k'],
+        answer : '512k'
+    },
+    {
+        question : 'How many IO ports are there in lpc2148 ',
+        option : ['4',' 1','3','2'],
+        answer : '2'
+    },
+    {
+        question : 'Which GPIO port pin value register is used to read-write values?',
+        option : ['IOPIN','IODIR','IOSET','IOCLR'],
+        answer : 'IOPIN'
+    },
+    {
+        question : 'mov r0,# 00000009  <br> mov r1,#00000005 <br> add r2,r1,r0<br> what will be the output of above program?',
+        option : ['0F','0A','16','0E'],
+        answer : '0E'
+    },
 ]
 
 console.log(questionBank[0]);
