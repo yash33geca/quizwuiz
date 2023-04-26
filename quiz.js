@@ -1,7 +1,7 @@
 //Question bank
 var questionBank= [
     {
-        question : ' Which memory storage is widely used in PCs and Embedded Systems?',
+        question : 'Which memory storage is widely used in PCs and Embedded Systems?',
         option : ['EEPROM','Flash memory','SRAM','DRAM'],
         answer : 'DRAM'
     },
