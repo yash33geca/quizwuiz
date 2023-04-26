@@ -16,7 +16,7 @@ var questionBank= [
         answer : 'RISC'
     },
     {
-        question 'Which of the following can generates a interrupt?'
+        question : 'Which of the following can generates a interrupt?'
         option : ['Counter','Timer','Delay','All of the above'],
         answer : 'Timer'
     },
