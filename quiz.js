@@ -1,13 +1,13 @@
 //Question bank
 var questionBank= [
-    {
+   {
         question : 'Which memory storage is widely used in PCs and Embedded Systems?',
         option : ['EEPROM','Flash memory','SRAM','DRAM'],
         answer : 'DRAM'
     },
     {
         question : 'How an embedded system communicate with the outside world?',
-        option : ['Memory','Output','Peripherals',''Input'],
+        option : ['Memory','Output','Peripherals','Input'],
         answer : 'Peripherals'
     },
     {
@@ -16,7 +16,7 @@ var questionBank= [
         answer : 'RISC'
     },
     {
-        question 'Which of the following can generates a interrupt?'
+        question : 'Which of the following can generates a interrupt?',
         option : ['Counter','Timer','Delay','All of the above'],
         answer : 'Timer'
     },
