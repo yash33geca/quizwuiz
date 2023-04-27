@@ -12,7 +12,7 @@ var questionBank= [
     },
     {
         question : 'Which of the architectures are made to speed up the processor?',
-        option : ['CISC',' RISC','program stored','von Neumann'],
+        option : ['CISC','RISC','program stored','von Neumann'],
         answer : 'RISC'
     },
     {
